@@ -40,7 +40,7 @@
 
 ## 📁 精選專案作品 (Featured Projects)
 
-### 🧬 [任務排程最佳化研究 —— 遺傳演算法 (GA) 核心機制與應用](https://github.com/zhilingliu-work/Genetic-Algorithm)
+### 🧬 [任務排程最佳化研究 —— 遺傳演算法 (GA) 核心機制與應用]([https://github.com/zhilingliu-work/Genetic-Algorithm](https://github.com/zhilingliu-work/Genetic-Algorithm-Research))
 * **專案概述：** 針對平行運算系統中屬於 NP-hard 的 DAG 任務排程問題，利用 Python 實作啟發式最佳化求解框架。
 * **技術亮點：** 設計 `(ss, ms)` 雙元件染色體編碼以完美符合拓撲排序限制；導入**三階段動態突變率**（0.27 ➔ 0.12 ➔ 0.02）優化全域搜尋，並加入「連續 5 代未改善則強制突變」之**防陷落機制**，結合 $60\%$ 的**激進精英保留策略**，顯著提升演算法收斂效率與求解品質。
 
