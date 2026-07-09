@@ -6,7 +6,7 @@
 </p>
 
 ## 🚀 關於我 (About Me)
-目前就讀於**國立高雄科技大學電腦與通訊工程系**。我具備跨領域學習背景，專注於**機器學習應用**、**軟體系統分析與規劃**、以及**啟發式最佳化演算法**的實作。
+目前就讀於**國立高雄科技大學電腦與通訊工程系**。我具備跨領域學習背景，專注於**機器學習應用**、**軟體系統分析與規劃**、**後端關聯式資料庫實作**，以及**啟發式最佳化演算法**的開發。
 
 實務開發上，我擅長運用生成式 AI 輔助建立高效率的程式架構與邏輯測試，同時具備良好的軟體工程思維與專案風險控管觀念，重視系統穩定度。目前正在尋找**軟體工程實習機會**，期待能在實務環境中與團隊協作，持續精進技術量能！
 
@@ -17,28 +17,33 @@
 ### 💻 程式語言 & 前端基礎
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP">
   <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" alt="C">
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white" alt="Swift">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
 </p>
 
 ### 🔧 開發工具 & 資料庫
 <p>
   <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" alt="VS Code">
-  <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=flat-square&logo=android-studio&logoColor=white" alt="Android Studio">
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL">
+  <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=flat-square&logo=android-studio&logoColor=white" alt="Android Studio">
 </p>
 
 ### 🧠 核心技術經歷
+* **關聯式資料庫工程：** 3NF 實體關係正規化設計、跨表 JOIN 優化，以及防禦 SQL 注入之參數化查詢實作。
 * **機器學習與資料管線：** Pandas、NumPy 資料預處理管線設計，與 scikit-learn 隨機森林模型調優。
 * **演算法核心實作：** 遺傳演算法 (GA) 解空間編碼、動態突變機制優化與收斂行為分析。
-* **系統分析與逆向工程：** 物件導向系統分析 (OOAD)、UML 模型建構，以及資料庫 3NF 正規化設計。
+* **系統分析與逆向工程：** 物件導向系統分析 (OOAD) 與 UML 模型建構。
 
 ---
 
 ## 📁 精選專案作品 (Featured Projects)
+
+### 📚 [線上圖書借閱系統 —— Web 關聯式資料庫管理與實作](https://github.com/zhilingliu-work/Online-Book-Borrowing-System)
+* **專案概述：** 以原生 PHP 與 MySQL 從零建構之線上圖書管理系統，專注於關聯式資料庫底層設計、交易完整性與應用層資安防禦。
+* **技術亮點：** 嚴格落實 **3NF 資料庫正規化**與外鍵完整性約束（Foreign Key Constraints）杜絕資料異常；實作基於角色的雙軌權限分流 (RBAC) 與跨表查詢優化；全面導入 **Session 狀態驗證**與**參數化查詢 (Parameterized Queries)**，達成免疫 SQL 注入攻擊之資安標準。
 
 ### 🧬 [任務排程最佳化研究 —— 遺傳演算法 (GA) 核心機制與應用](https://github.com/zhilingliu-work/Genetic-Algorithm-Research)
 * **專案概述：** 針對平行運算系統中屬於 NP-hard 的 DAG 任務排程問題，利用 Python 實作啟發式最佳化求解框架。
