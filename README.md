@@ -41,7 +41,7 @@
 
 ## 📁 精選專案作品 (Featured Projects)
 
-### 📚 [線上圖書借閱系統 —— Web 關聯式資料庫管理與實作](https://github.com/zhilingliu-work/Library-Database-System)
+### 📚 [線上圖書借閱系統 —— Web 關聯式資料庫管理與實作](https://github.com/zhilingliu-work/Online-Book-Borrowing-System)
 * **專案概述：** 以原生 PHP 與 MySQL 從零建構之線上圖書管理系統，專注於關聯式資料庫底層設計、交易完整性與應用層資安防禦。
 * **技術亮點：** 嚴格落實 **3NF 資料庫正規化**與外鍵完整性約束（Foreign Key Constraints）杜絕資料異常；實作基於角色的雙軌權限分流 (RBAC) 與跨表查詢優化；全面導入 **Session 狀態驗證**與**參數化查詢 (Parameterized Queries)**，達成免疫 SQL 注入攻擊之資安標準。
 
